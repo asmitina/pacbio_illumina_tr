@@ -4,7 +4,6 @@ library(lattice)
 library(colorspace)
 library(quantmod)
 library(stats)
-library(readr)
 
 # Rearrange TRGT output into tables by region
 tmp.trgt = read.delim('_trgt_output_pathogenic/198_pathogenic_trgt.vcf', stringsAsFactors = F, skip = 211, header = T)
